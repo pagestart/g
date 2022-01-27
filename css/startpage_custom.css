@@ -3,7 +3,6 @@ body {
 	background-size: cover;
 	height: 100%;
 	-moz-appearance: none;
-	/*font-family: Raleway, -apple-system, BlinkMacSystemFont;*/
 	font-family: 'Verdana', sans !important;
 	margin: 0 0 0 0;
 	overflow-y: hidden;
@@ -14,6 +13,7 @@ a {
 	font-weight:300;
 	transition: all 0.15s ease-out 0s;
 	-moz-transform: translateZ(0); /*Enable hardware acceleration*/
+	will-change: transform;
 	}
 	
 a:link {
@@ -31,6 +31,8 @@ a:hover {
 	line-height: 30px;
 	text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 40px #AA00FF , 0 0 70px #AA00FF , 0 0 80px #AA00FF , 0 0 100px #AA00FF ;
 	text-decoration: none;
+	/* Enable for Christmas */
+	/* text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 40px #d42426 , 0 0 70px #d42426 , 0 0 80px #d42426 , 0 0 100px #d42426 ; */
 	}
 
 a:active {
@@ -74,7 +76,7 @@ input[type=search]{
 
 #searchbox {
 	width: 100%;
-	font-family: 'Source Code Pro', monospace !important;
+	font-family: 'Verdana', sans !important;
 	font-size: 24px;
 	font-weight: 300;
 	background: none;
@@ -102,6 +104,8 @@ body > div > div:nth-child(1) > span > a:hover {
 	font-size: 34px;
 	line-height: 34px;
 	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #AA00FF , 0 0 70px #AA00FF , 0 0 80px #AA00FF , 0 0 100px #AA00FF ;
+	/* Enable for Christmas */
+	/* text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #d42426 , 0 0 70px #d42426 , 0 0 80px #d42426 , 0 0 100px #d42426 ; */
 	/*color: #b03bd8;*/
 }
 
