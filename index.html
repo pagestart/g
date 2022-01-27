@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Start</title>
+	<link href="favicon.ico" rel="icon">
+	<link rel="stylesheet" id="pagestyle" type="text/css" href="css/startpage_custom.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+	<style type="text/css"></style>
+	<script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="wrapper">	
+		<div class="box">
+		<span class="caption"><i href="#" class="material-icons md-48">work</i></span><br><br>
+		    <a href="https://gmail.com/">Gmail</a>
+		    <br>
+		    <a href="https://hotmail.com/">Hotmail</a>
+		    <br>
+		    <a href="https://wetransfer.com/">WeTransfer</a>
+		    <br>
+			<a href="https://wordreference.com/">WordReference</a>
+			<br>
+			<a href="http://context.reverso.net/">Reverso</a>
+			<br>
+			<a href="https://dizionario.reverso.net/francese-italiano">Dizionario FR</a>
+			<br>
+			<a href="https://www.linkedin.com/">LinkedIn</a>
+		</div>	
+		
+		<div class="box">	
+		<span class="caption"><i class="material-icons md-48">star</i></span><br><br>	
+			<a href="https://youtube.com/">Youtube</a>
+			<br>
+			<a href="https://spotify.com/">Spotify</a>
+			<br>
+			<a href="https://www.netflix.com/">Netflix</a>
+			<br>
+			<a href="https://www.pinterest.com/">Pinterest</a>
+			<br>
+			<a href="https://giallozafferano.it/">GialloZafferano</a>
+		</div>	
+		
+		<div class="box">	
+		<span class="caption"><i class="material-icons md-48">people</i></span><br><br>
+			<a href="https://instagram.com/">Instagram</a>
+			<br>
+			<a href="https://facebook.com/">Facebook</a>
+			<br>
+			<a href="https://web.telegram.org/">Telegram</a>
+			<br>
+			<a href="https://web.whatsapp.com/">Whatsapp</a>
+		</div>
+		
+		<div class="box">
+		<span class="caption"><i class="material-icons md-48">shopping_cart</i></span><br><br>
+			<a href="https://amazon.it/">Amazon</a>
+			<br>
+			<a href="https://zara.it/">Zara</a>
+			<br>
+			<a href="https://pullandbear.it/">Pull&Bear</a>
+			<br>
+			<a href="https://bershka.it/">Bershka</a>
+			<br>
+			<a href="https://oysho.com/it/">Oysho</a>
+			<br>
+			<a href="https://stradivarius.com/it/">Stradivarius</a>
+			<br>
+			<a href="https://asos.com/it/">Asos</a>
+			<br>
+			<a href="https://www2.hm.com/it_ch/donna.html">H&M</a>
+		</div>
+
+		<br><br><br>
+		<input id="searchbox" type="search" placeholder="Search..." onkeydown="if (event.keyCode == 13 || event.which == 13) { window.open('http://www.google.com/search?q=' + encodeURIComponent(document.getElementById('searchbox').value));}" />
+	</div>	
+	
+	<script>
+	    $(function() { // On DOM content ready
+            var urls = [];
+
+            $('.quickstart').click(function() {
+                for (var i in urls) {
+                    window.open(urls[i]);
+                }
+            });
+        });
+	</script>
+
+</body>
+</html>
+
