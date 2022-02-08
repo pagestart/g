@@ -29,7 +29,7 @@ a:visited {
 a:hover {
 	font-size: 30px;
 	line-height: 30px;
-	text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 40px #AA00FF , 0 0 70px #AA00FF , 0 0 80px #AA00FF , 0 0 100px #AA00FF ;
+	text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 40px #ff9500 , 0 0 70px #ff9500 , 0 0 80px #ff9500 , 0 0 100px #ff9500 ;
 	text-decoration: none;
 	/* Enable for Christmas */
 	/* text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 40px #d42426 , 0 0 70px #d42426 , 0 0 80px #d42426 , 0 0 100px #d42426 ; */
@@ -103,7 +103,7 @@ body > div > div:nth-child(1) > span > a {
 body > div > div:nth-child(1) > span > a:hover {
 	font-size: 34px;
 	line-height: 34px;
-	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #AA00FF , 0 0 70px #AA00FF , 0 0 80px #AA00FF , 0 0 100px #AA00FF ;
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff9500 , 0 0 70px #ff9500 , 0 0 80px #ff9500 , 0 0 100px #ff9500 ;
 	/* Enable for Christmas */
 	/* text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #d42426 , 0 0 70px #d42426 , 0 0 80px #d42426 , 0 0 100px #d42426 ; */
 	/*color: #b03bd8;*/
