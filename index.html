@@ -98,26 +98,6 @@
         onkeydown="if (event.keyCode == 13 || event.which == 13) { window.open('http://google.com/search?q=' + encodeURIComponent(document.getElementById('searchbox').value));}" />
     </div>
 
-    <script type="text/javascript">
-      // Year progress
-      let now = new Date();
-      let onejan = new Date(now.getFullYear(), 0, 1);
-      let day = Math.ceil((now.getTime() - onejan.getTime()) / 86400000);
-      let prog = (100 * day) / 365;
-
-      // Print percentage
-      document.getElementById("prog").innerText = prog.toFixed(2);
-
-      // Print progress bar
-      let progbarLen = 20;
-      let progressBar = document.getElementById("ascii-progress-bar");
-
-      for (let n = 0; n < progbarLen; n++) {
-        let char = ((n + 1) * 100) / progbarLen > prog ? "-" : "#";
-        progressBar.appendChild(document.createTextNode(char));
-      }
-    </script>
-
     <script>
       // Countdown
       var countDownDate = new Date("May 25, 2024 00:00:00").getTime();
